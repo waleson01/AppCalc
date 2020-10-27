@@ -8,8 +8,8 @@
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="estiloComum" TargetType="Button">
-                <Setter Property="horizontalOption" Value="fill" />
-                <Setter Property="verticalOption" Value="fill" />
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions" Value="Fill" />
                 <Setter Property="FontSize" Value="40" />
                 <Setter Property="TextColor" Value="black" />
             </Style>

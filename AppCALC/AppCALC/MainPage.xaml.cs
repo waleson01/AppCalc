@@ -140,7 +140,7 @@ namespace AppCALC
            
          }
 
-        private void btv_maismenos(object sender, EventArgs e)
+        private void btn_maismenos(object sender, EventArgs e)
         {
             try
             {
