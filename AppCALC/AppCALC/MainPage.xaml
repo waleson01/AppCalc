@@ -7,7 +7,7 @@
                           >
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Style x:Key="estiloComum" TargetType="button">
+            <Style x:Key="estiloComum" TargetType="Button">
                 <Setter Property="horizontalOption" Value="fill" />
                 <Setter Property="verticalOption" Value="fill" />
                 <Setter Property="FontSize" Value="40" />
@@ -19,7 +19,7 @@
             </Style>
 
             <Style x:Key="botaoEscuro" TargetType="Button" BasedOn="{StaticResource estiloComum}">
-                <Setter Property="BackgroundColor" Value="#ddd" />
+                <Setter Property="BackgroundColor" Value="#aaa" />
             </Style>
 
             <Style x:Key="botaoLaranja" TargetType="Button" BasedOn="{StaticResource estiloComum}">
