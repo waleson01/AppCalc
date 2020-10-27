@@ -60,7 +60,7 @@
             <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource botaoEscuro}" x:Name="zerar" Text="C" Clicked="btn_zerar" />
             <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource botaoEscuro}" x:Name="maismenos" Text="+/-" Clicked="btn_maismenos"/>
             <Button Grid.Row="1" Grid.Column="2" Style="{StaticResource botaoEscuro}" x:Name="porcento" Text="%" Clicked="btn_porcento" />
-            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource botaoLaranja}" x:Name="dividir" Text="div" Clicked="btn_dividir" />
+            <Button Grid.Row="1" Grid.Column="3" Style="{StaticResource botaoLaranja}" x:Name="dividir" Text="/" Clicked="btn_dividir" />
 
             <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource botaoClaro}" x:Name="num7" Text="7" Clicked="btn_7"/>
             <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource botaoClaro}" x:Name="num8" Text="8" Clicked="btn_8" />
@@ -75,7 +75,7 @@
             <Button Grid.Row="4" Grid.Column="0" Style="{StaticResource botaoClaro}" x:Name="num1" Text="1" Clicked="btn_1"/>
             <Button Grid.Row="4" Grid.Column="1" Style="{StaticResource botaoClaro}" x:Name="num2" Text="2" Clicked="btn_2" />
             <Button Grid.Row="4" Grid.Column="2" Style="{StaticResource botaoClaro}" x:Name="num3" Text="3" Clicked="btn_3" />
-            <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource botaoLaranja}" x:Name="somar" Text="-" Clicked="btn_somar" />
+            <Button Grid.Row="4" Grid.Column="3" Style="{StaticResource botaoLaranja}" x:Name="somar" Text="+" Clicked="btn_somar" />
 
             <Button Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" Style="{StaticResource botaoClaro}" x:Name="num0" Text="0" Clicked="btn_0" />
             <Button Grid.Row="5" Grid.Column="2" Style="{StaticResource botaoClaro}" x:Name="ponto" Text="." Clicked="btn_ponto" />
