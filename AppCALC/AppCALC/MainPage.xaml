@@ -55,7 +55,7 @@
                    HorizontalTextAlignment="End"
                    VerticalTextAlignment="End"
                    FontSize="60"
-                   TextColor="White" />
+                   TextColor="RoyalBlue" />
 
             <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource botaoEscuro}" x:Name="zerar" Text="C" Clicked="btn_zerar" />
             <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource botaoEscuro}" x:Name="maismenos" Text="+/-" Clicked="btn_maismenos"/>
